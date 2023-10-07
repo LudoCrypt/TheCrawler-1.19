@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "thecrawler",
+  "version": "${version}",
+  "name": "Redacted Mobs",
+  "description": "New Mobs for REDACTEDSMP.",
+  "authors": [
+    "Deytra"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/thecrawler/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "deytra.thecrawler.client.TheCrawlerClient"
+    ],
+    "main": [
+      "deytra.thecrawler.TheCrawler"
+    ]
+  },
+  "mixins": [
+    "thecrawler.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19"
+  }
+}
